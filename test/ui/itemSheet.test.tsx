@@ -34,7 +34,7 @@ describe('item sheet', () => {
     expect(saved).toMatchObject({ name: 'נעלי ריצה', boughtOn: SHEET_TODAY, year: 2026, sequence: 1 })
     expect(saved.price).toBeUndefined()
     expect(saved.shop).toBeUndefined()
-    expect(screen.getByTestId(SAVED_ID)).toHaveTextContent(saved.id)
+    expect(await screen.findByTestId(SAVED_ID)).toHaveTextContent(saved.id)
   })
 
   it('blocks saving an invalid price with a visible message, and keeps agorot', async () => {
