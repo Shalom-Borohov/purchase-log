@@ -1,0 +1,62 @@
+import { useRef } from 'react'
+import { ImportIcon, ShareIcon } from '../../components/icons'
+import { useRecords } from '../../data/hooks'
+import { BACKUP_FILE_ACCEPT } from './backupFile'
+import { SETTINGS_COPY } from './copy'
+import { useBackupExport } from './useBackupExport'
+import { useBackupRestore } from './useBackupRestore'
+
+function BackupCounts() {
+  const records = useRecords()
+
+  if (!records) {
+    return null
+  }
+
+  const { items } = records
+  const itemPhotos = items.filter(({ hasPhoto }) => hasPhoto).length
+  const receiptPhotos = items.filter(({ hasReceipt }) => hasReceipt).length
+
+  return <p className="settings-counts">{SETTINGS_COPY.counts(items.length, itemPhotos + receiptPhotos)}</p>
+}
+
+export function BackupTile() {
+  const fileInput = useRef<HTMLInputElement>(null)
+  const { exportData, fileAwaitingTap, shareAgain } = useBackupExport()
+  const restoreFromFile = useBackupRestore()
+
+  return (
+    <section className="panel settings-tile">
+      <h2>{SETTINGS_COPY.backup}</h2>
+      <p className="quiet-text settings-note">{SETTINGS_COPY.storageNote}</p>
+      <BackupCounts />
+      {fileAwaitingTap ? (
+        <div className="settings-ready" role="status">
+          <span>{SETTINGS_COPY.backupReady}</span>
+          <button type="button" className="primary-button settings-action" onClick={() => void shareAgain(fileAwaitingTap)}>
+            <ShareIcon />
+            {SETTINGS_COPY.share}
+          </button>
+        </div>
+      ) : (
+        <button type="button" className="primary-button settings-action" onClick={() => void exportData()}>
+          <ShareIcon />
+          {SETTINGS_COPY.exportBackup}
+        </button>
+      )}
+      <button type="button" className="quiet-button settings-action" onClick={() => fileInput.current?.click()}>
+        <ImportIcon />
+        {SETTINGS_COPY.restoreBackup}
+      </button>
+      <input
+        ref={fileInput}
+        className="visually-hidden"
+        type="file"
+        accept={BACKUP_FILE_ACCEPT}
+        tabIndex={-1}
+        aria-label={SETTINGS_COPY.backupFile}
+        onChange={(event) => void restoreFromFile(event)}
+      />
+    </section>
+  )
+}

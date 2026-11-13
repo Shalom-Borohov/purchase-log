@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T00:00:00Z",
+  "title": "Design System: רכישות",
+  "extensions": {
+    "colorMeta": {
+      "wall": {
+        "role": "neutral",
+        "displayName": "Matte Wall",
+        "canonical": "#14342e",
+        "oklch": "oklch(29.9% 0.040 180)",
+        "tonalRamp": [
+          "#040d0b",
+          "#162925",
+          "#2c4842",
+          "#486962",
+          "#698a83",
+          "#8dada6",
+          "#b8cfc9",
+          "#e4f2ef"
+        ]
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Sheet Green",
+        "canonical": "#18403a",
+        "oklch": "oklch(34.1% 0.046 182)",
+        "tonalRamp": [
+          "#030e0c",
+          "#122a26",
+          "#264944",
+          "#426a63",
+          "#638c84",
+          "#88aea7",
+          "#b4d0cb",
+          "#e1f3ef"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Raised Panel",
+        "canonical": "#1d463e",
+        "oklch": "oklch(36.2% 0.048 179)",
+        "tonalRamp": [
+          "#030e0b",
+          "#122a25",
+          "#254a42",
+          "#426a62",
+          "#628c83",
+          "#88afa5",
+          "#b4d0c9",
+          "#e1f3ef"
+        ]
+      },
+      "tab-bar": {
+        "role": "neutral",
+        "displayName": "Tab-Bar Green",
+        "canonical": "#102b26",
+        "oklch": "oklch(26.6% 0.034 180)",
+        "tonalRamp": [
+          "#050d0b",
+          "#182925",
+          "#2f4842",
+          "#4c6862",
+          "#6c8983",
+          "#90aca6",
+          "#bacec9",
+          "#e5f2ef"
+        ]
+      },
+      "label": {
+        "role": "neutral",
+        "displayName": "Label Card",
+        "canonical": "#f1efe7",
+        "oklch": "oklch(95.1% 0.011 95)",
+        "tonalRamp": [
+          "#0c0b09",
+          "#262521",
+          "#43423c",
+          "#63615a",
+          "#84827b",
+          "#a7a59e",
+          "#cac9c4",
+          "#efeeeb"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Label Ink",
+        "canonical": "#10201c",
+        "oklch": "oklch(22.8% 0.023 176)",
+        "tonalRamp": [
+          "#070d0b",
+          "#1d2825",
+          "#364642",
+          "#546661",
+          "#748782",
+          "#98aaa4",
+          "#bfcdc9",
+          "#e8f1ee"
+        ]
+      },
+      "ink-quiet": {
+        "role": "neutral",
+        "displayName": "Quiet Ink",
+        "canonical": "#55655f",
+        "oklch": "oklch(49.1% 0.022 171)",
+        "tonalRamp": [
+          "#080c0b",
+          "#1e2724",
+          "#384640",
+          "#55655f",
+          "#768780",
+          "#99a9a3",
+          "#c0ccc8",
+          "#e9f0ed"
+        ]
+      },
+      "quiet": {
+        "role": "neutral",
+        "displayName": "Quiet Sage",
+        "canonical": "#a3bcb2",
+        "oklch": "oklch(77.3% 0.031 169)",
+        "tonalRamp": [
+          "#060d0a",
+          "#1b2823",
+          "#33473f",
+          "#50675e",
+          "#71897f",
+          "#95aba2",
+          "#bdcec7",
+          "#e7f1ed"
+        ]
+      },
+      "brass": {
+        "role": "primary",
+        "displayName": "Gallery Brass",
+        "canonical": "#d9a441",
+        "oklch": "oklch(75.1% 0.130 80)",
+        "tonalRamp": [
+          "#160700",
+          "#3a1e00",
+          "#623700",
+          "#875600",
+          "#ab7800",
+          "#cc9c44",
+          "#e7c388",
+          "#ffebc7"
+        ]
+      },
+      "signal": {
+        "role": "signal",
+        "displayName": "Closing-Window Orange",
+        "canonical": "#e2603a",
+        "oklch": "oklch(64.7% 0.171 37)",
+        "tonalRamp": [
+          "#210000",
+          "#4e0000",
+          "#810500",
+          "#ac2d00",
+          "#d4532d",
+          "#f67d5a",
+          "#ffaf94",
+          "#ffdfce"
+        ]
+      },
+      "danger": {
+        "role": "functional",
+        "displayName": "Soft Coral",
+        "canonical": "#f08a6c",
+        "oklch": "oklch(73.7% 0.132 37)",
+        "tonalRamp": [
+          "#1d0200",
+          "#460f00",
+          "#742205",
+          "#9d4023",
+          "#c46245",
+          "#e6896d",
+          "#fcb6a1",
+          "#ffe3d5"
+        ]
+      },
+      "track": {
+        "role": "neutral",
+        "displayName": "Return Track",
+        "canonical": "#dcd7c7",
+        "oklch": "oklch(87.9% 0.022 93)",
+        "tonalRamp": [
+          "#0c0b07",
+          "#27251d",
+          "#464236",
+          "#666153",
+          "#878274",
+          "#a9a597",
+          "#ccc9bf",
+          "#f0eee8"
+        ]
+      },
+      "kind-sky": {
+        "role": "kind",
+        "displayName": "Sky (kind)",
+        "canonical": "#7fb7e6",
+        "oklch": "oklch(75.8% 0.090 245)",
+        "tonalRamp": [
+          "#000c19",
+          "#052740",
+          "#12456a",
+          "#2f6691",
+          "#5188b5",
+          "#78abd6",
+          "#a9ceee",
+          "#dbf2ff"
+        ]
+      },
+      "kind-lilac": {
+        "role": "kind",
+        "displayName": "Lilac (kind)",
+        "canonical": "#b79cf0",
+        "oklch": "oklch(74.8% 0.121 298)",
+        "tonalRamp": [
+          "#0e051d",
+          "#2b1a46",
+          "#4a3174",
+          "#6b4f9c",
+          "#8c71c1",
+          "#ae95e2",
+          "#cfbef7",
+          "#f2e8ff"
+        ]
+      },
+      "kind-pink": {
+        "role": "kind",
+        "displayName": "Pink (kind)",
+        "canonical": "#ef8fb0",
+        "oklch": "oklch(75.9% 0.122 358)",
+        "tonalRamp": [
+          "#1a020b",
+          "#420f25",
+          "#6e2241",
+          "#963f60",
+          "#bb6181",
+          "#de86a4",
+          "#f6b4c8",
+          "#ffe1ee"
+        ]
+      },
+      "kind-mint": {
+        "role": "kind",
+        "displayName": "Mint (kind)",
+        "canonical": "#7fd6b5",
+        "oklch": "oklch(81.2% 0.097 168)",
+        "tonalRamp": [
+          "#001008",
+          "#002f1f",
+          "#005038",
+          "#0a7256",
+          "#3c9577",
+          "#69b79a",
+          "#a0d7c1",
+          "#d6f8e9"
+        ]
+      },
+      "kind-lime": {
+        "role": "kind",
+        "displayName": "Lime (kind)",
+        "canonical": "#c5d86d",
+        "oklch": "oklch(84.5% 0.134 118)",
+        "tonalRamp": [
+          "#0a0d00",
+          "#222a00",
+          "#3e4900",
+          "#5c6a00",
+          "#7c8c15",
+          "#9faf4f",
+          "#c4d18e",
+          "#ebf4cb"
+        ]
+      },
+      "kind-grey": {
+        "role": "kind",
+        "displayName": "Grey (kind)",
+        "canonical": "#9db3ad",
+        "oklch": "oklch(74.8% 0.026 177)",
+        "tonalRamp": [
+          "#070d0b",
+          "#1c2825",
+          "#354642",
+          "#526661",
+          "#738882",
+          "#96aaa5",
+          "#becdc9",
+          "#e7f1ee"
+        ]
+      },
+      "kind-peach": {
+        "role": "kind",
+        "displayName": "Peach (kind)",
+        "canonical": "#f2a679",
+        "oklch": "oklch(78.9% 0.108 51)",
+        "tonalRamp": [
+          "#190500",
+          "#3f1800",
+          "#6a2f00",
+          "#904d1f",
+          "#b56e42",
+          "#d7936a",
+          "#f0bc9f",
+          "#ffe7d4"
+        ]
+      },
+      "kind-sand": {
+        "role": "kind",
+        "displayName": "Sand (kind)",
+        "canonical": "#dcc48e",
+        "oklch": "oklch(82.8% 0.075 87)",
+        "tonalRamp": [
+          "#110a00",
+          "#302303",
+          "#523f0d",
+          "#745e2a",
+          "#967f4c",
+          "#b8a372",
+          "#d7c8a5",
+          "#f8eed8"
+        ]
+      },
+      "kind-teal": {
+        "role": "kind",
+        "displayName": "Teal (kind)",
+        "canonical": "#63c3cc",
+        "oklch": "oklch(76.2% 0.091 204)",
+        "tonalRamp": [
+          "#000f12",
+          "#002d32",
+          "#004e56",
+          "#007079",
+          "#2b929b",
+          "#5eb5bd",
+          "#9ad5db",
+          "#d2f6fa"
+        ]
+      },
+      "kind-violet": {
+        "role": "kind",
+        "displayName": "Violet (kind)",
+        "canonical": "#9fa6f2",
+        "oklch": "oklch(74.9% 0.110 279)",
+        "tonalRamp": [
+          "#08081d",
+          "#1f1f47",
+          "#383a76",
+          "#55599e",
+          "#757ac3",
+          "#989ee3",
+          "#bfc5f9",
+          "#e8ecff"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(241, 239, 231, 0.1)"
+      },
+      "brass-wash": {
+        "role": "primary",
+        "displayName": "Brass Wash",
+        "canonical": "rgba(217, 164, 65, 0.16)"
+      }
+    },
+    "typographyMeta": {
+      "total": {
+        "displayName": "Total",
+        "purpose": "Period total on סיכום; shop total at 2rem."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Large title of a top-level screen."
+      },
+      "price": {
+        "displayName": "Price",
+        "purpose": "Price on a label card; 1.875rem on the item page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Item name on the item page label."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Shop names and totals on חנויות."
+      },
+      "item-name": {
+        "displayName": "Item name",
+        "purpose": "Item names on labels and rows, section headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Field text and button labels."
+      },
+      "control": {
+        "displayName": "Control",
+        "purpose": "Choices, quiet buttons, item actions, toggles."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels and the month line, in quiet sage."
+      },
+      "secondary": {
+        "displayName": "Secondary",
+        "purpose": "Provenance, return-bar text, captions."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Running numbers, grid provenance, returned mark."
+      },
+      "tab-label": {
+        "displayName": "Tab label",
+        "purpose": "Tab bar labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "label",
+        "value": "0 10px 24px rgba(4, 14, 12, 0.45), 0 2px 4px rgba(4, 14, 12, 0.25)",
+        "purpose": "Every label card, hung in front of its photo."
+      },
+      {
+        "name": "float",
+        "value": "0 10px 22px rgba(4, 14, 12, 0.5), 0 2px 4px rgba(4, 14, 12, 0.3)",
+        "purpose": "Camera button and no-photo pill above the tab bar."
+      },
+      {
+        "name": "segment",
+        "value": "0 2px 6px rgba(4, 14, 12, 0.35)",
+        "purpose": "Selected segment in a segmented control."
+      },
+      {
+        "name": "retake-mark",
+        "value": "0 3px 8px rgba(4, 14, 12, 0.4)",
+        "purpose": "Wall-coloured circle over a filled photo slot."
+      },
+      {
+        "name": "tab-bar-edge",
+        "value": "0 -1px 0 rgba(241, 239, 231, 0.08)",
+        "purpose": "Tab bar top edge."
+      }
+    ],
+    "lighting": [
+      {
+        "name": "spotlight",
+        "value": "radial-gradient(ellipse 62% 70% at 50% -8%, rgba(217, 164, 65, 0.34), rgba(217, 164, 65, 0.08) 55%, transparent 75%)",
+        "purpose": "Warm spotlight behind every lit tile and the empty item slot."
+      },
+      {
+        "name": "tile-sheen",
+        "value": "radial-gradient(ellipse 70% 60% at 50% -10%, rgba(255, 226, 168, 0.22), transparent 70%), linear-gradient(to bottom, transparent 60%, rgba(6, 18, 15, 0.35))",
+        "purpose": "Sheen and bottom darkening laid over the photo in a lit tile."
+      }
+    ],
+    "motion": [
+      {
+        "name": "press",
+        "value": "opacity 0.65, 120ms ease-out",
+        "purpose": "Every pressed button, link and photo input."
+      },
+      {
+        "name": "disclosure",
+        "value": "transform rotate(-90deg), 160ms ease-out",
+        "purpose": "Chevron of a breakdown toggle or the sheet's return row."
+      },
+      {
+        "name": "busy",
+        "value": "opacity 0.5, 120ms ease-out",
+        "purpose": "Photo slot while a photo is processed."
+      }
+    ],
+    "breakpoints": [],
+    "assets": [
+      {
+        "name": "app-icon",
+        "source": "public/favicon.svg",
+        "provenance": "The <symbol> from .impeccable/mocks/decision/icon-piece.html, byte for byte (spec 36)."
+      },
+      {
+        "name": "icon-192",
+        "path": "public/icon-192.png",
+        "provenance": "Rendered 2026-11-13 from public/favicon.svg with `rsvg-convert -w 192 -h 192`, then `magick -alpha remove -alpha off`."
+      },
+      {
+        "name": "icon-512",
+        "path": "public/icon-512.png",
+        "provenance": "Rendered 2026-11-13 from public/favicon.svg with `rsvg-convert -w 512 -h 512`, then `magick -alpha remove -alpha off`."
+      },
+      {
+        "name": "apple-touch-icon",
+        "path": "public/apple-touch-icon.png",
+        "provenance": "Rendered 2026-11-13 from public/favicon.svg with `rsvg-convert -w 180 -h 180`, then `magick -alpha remove -alpha off`."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Lit Tile with Label",
+      "kind": "card",
+      "refersTo": "lit-tile-lead",
+      "description": "The signature: a photo lit on the wall with a label card overlapping its lower edge, price heavy, return bar in signal orange.",
+      "html": "<div class=\"ds-piece\" dir=\"rtl\"><div class=\"ds-lit\"><span class=\"ds-lit-light\"></span></div><div class=\"ds-label\"><div class=\"ds-label-row\"><div><p class=\"ds-label-name\">אוזניות אלחוטיות</p><p class=\"ds-label-prov\">KSP · תל אביב · 3.11.26</p></div><div class=\"ds-label-amount\"><p class=\"ds-label-price\">₪349</p><p class=\"ds-label-num\">2026/041</p></div></div><div class=\"ds-return\"><span>עוד 9 ימים להחזרה</span><span class=\"ds-return-track\"><i style=\"width:64%\"></i></span></div></div></div>",
+      "css": ".ds-piece{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;background:#14342e;padding:16px;color:#f1efe7}.ds-lit{position:relative;height:250px;border-radius:26px;overflow:hidden;background:radial-gradient(ellipse 62% 70% at 50% -8%,rgba(217,164,65,.34),rgba(217,164,65,.08) 55%,transparent 75%),#1d463e}.ds-lit-light{position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% -10%,rgba(255,226,168,.22),transparent 70%),linear-gradient(to bottom,transparent 60%,rgba(6,18,15,.35))}.ds-label{position:relative;margin:-56px 14px 0;padding:12px 14px;border-radius:16px;background:#f1efe7;color:#10201c;box-shadow:0 10px 24px rgba(4,14,12,.45),0 2px 4px rgba(4,14,12,.25)}.ds-label p{margin:0}.ds-label-row{display:flex;justify-content:space-between;gap:10px}.ds-label-name{font-size:.9375rem;font-weight:700;line-height:1.3}.ds-label-prov{margin-top:2px!important;color:#55655f;font-size:.8125rem}.ds-label-amount{text-align:left;direction:ltr}.ds-label-price{font-size:1.75rem;font-weight:800;line-height:1;letter-spacing:-.01em;font-variant-numeric:tabular-nums}.ds-label-num{margin-top:6px!important;color:#55655f;font-size:.75rem}.ds-return{display:flex;align-items:center;gap:10px;margin-top:10px;font-size:.8125rem;font-weight:500}.ds-return-track{display:flex;flex:1;height:6px;border-radius:3px;overflow:hidden;background:#dcd7c7}.ds-return-track i{border-radius:3px;background:#e2603a}"
+    },
+    {
+      "name": "Grid Tile",
+      "kind": "card",
+      "refersTo": "grid-tile",
+      "description": "A smaller lit tile with a one-line caption (name, price) and the shop beneath.",
+      "html": "<a class=\"ds-grid-tile\" href=\"#\" dir=\"rtl\"><span class=\"ds-grid-lit\"></span><span class=\"ds-grid-cap\"><span class=\"ds-grid-line\"><span class=\"ds-grid-name\">נעלי ריצה</span><span class=\"ds-grid-price\">₪420</span></span><span class=\"ds-grid-prov\">שופרסל · 28.10</span></span></a>",
+      "css": ".ds-grid-tile{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;display:block;width:170px;overflow:hidden;border-radius:22px;background:#1d463e;color:#f1efe7;text-decoration:none;transition:opacity 120ms ease-out;}.ds-grid-tile:active{opacity:.65}.ds-grid-tile:focus-visible{outline:2px solid #d9a441;outline-offset:2px}.ds-grid-lit{display:block;height:118px;border-radius:22px 22px 0 0;background:radial-gradient(ellipse 62% 70% at 50% -8%,rgba(217,164,65,.34),rgba(217,164,65,.08) 55%,transparent 75%),#1d463e}.ds-grid-cap{display:block;padding:2px 12px 12px}.ds-grid-line{display:flex;justify-content:space-between;gap:8px;font-size:.875rem;font-weight:700;line-height:1.3}.ds-grid-prov{display:block;margin-top:1px;color:#a3bcb2;font-size:.75rem}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Brass, the one interactive tint.",
+      "html": "<button class=\"ds-btn-primary\">שמירה</button>",
+      "css": ".ds-btn-primary{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;min-height:48px;padding:0 22px;border:0;border-radius:14px;background:#d9a441;color:#10201c;font-size:1rem;font-weight:700;transition:opacity 120ms ease-out;}.ds-btn-primary:active{opacity:.65}.ds-btn-primary:focus-visible{outline:2px solid #d9a441;outline-offset:2px}.ds-btn-primary:disabled{opacity:.45}"
+    },
+    {
+      "name": "Camera Button",
+      "kind": "button",
+      "refersTo": "button-camera",
+      "description": "64px brass circle floating above the tab bar on the trailing side.",
+      "html": "<button class=\"ds-btn-camera\" aria-label=\"צילום\"><svg width=\"30\" height=\"30\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path fill-rule=\"evenodd\" d=\"M9 4h6l1.6 2.2H20a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8.2a2 2 0 0 1 2-2h3.4zm3 4.6a4.4 4.4 0 1 0 0 8.8 4.4 4.4 0 0 0 0-8.8zm0 2a2.4 2.4 0 1 1 0 4.8 2.4 2.4 0 0 1 0-4.8z\"/></svg></button>",
+      "css": ".ds-btn-camera{display:grid;place-items:center;width:64px;height:64px;border:0;border-radius:50%;background:#d9a441;color:#10201c;box-shadow:0 10px 22px rgba(4,14,12,.5),0 2px 4px rgba(4,14,12,.3);transition:opacity 120ms ease-out;}.ds-btn-camera:active{opacity:.65}.ds-btn-camera:focus-visible{outline:2px solid #d9a441;outline-offset:3px}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Raised panel with label text, for secondary actions.",
+      "html": "<button class=\"ds-btn-quiet\">גיבוי</button>",
+      "css": ".ds-btn-quiet{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;min-height:44px;padding:0 18px;border:0;border-radius:14px;background:#1d463e;color:#f1efe7;font-size:.9375rem;font-weight:500;transition:opacity 120ms ease-out;}.ds-btn-quiet:active{opacity:.65}.ds-btn-quiet:focus-visible{outline:2px solid #d9a441;outline-offset:2px}"
+    },
+    {
+      "name": "Brass-Wash Action",
+      "kind": "button",
+      "refersTo": "button-brass-wash",
+      "description": "Secondary item action: brass text on a brass wash.",
+      "html": "<button class=\"ds-btn-wash\">הוספה ליומן</button>",
+      "css": ".ds-btn-wash{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;min-height:44px;padding:0 12px;border:0;border-radius:14px;background:rgba(217,164,65,.16);color:#d9a441;font-size:.9375rem;font-weight:500;transition:opacity 120ms ease-out;}.ds-btn-wash:active{opacity:.65}.ds-btn-wash:focus-visible{outline:2px solid #d9a441;outline-offset:2px}"
+    },
+    {
+      "name": "Choices with Kind Dots",
+      "kind": "chip",
+      "refersTo": "choice",
+      "description": "44px pills; selected fills with label colour; kind dot beside the name.",
+      "html": "<div class=\"ds-choices\" dir=\"rtl\"><button class=\"ds-choice\" aria-pressed=\"true\"><span class=\"ds-dot\" style=\"background:#7fb7e6\"></span>בגדים</button><button class=\"ds-choice\" aria-pressed=\"false\"><span class=\"ds-dot\" style=\"background:#ef8fb0\"></span>אלקטרוניקה</button><button class=\"ds-choice\" aria-pressed=\"false\"><span class=\"ds-dot\" style=\"background:#9db3ad\"></span>אחר</button></div>",
+      "css": ".ds-choices{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;display:flex;flex-wrap:wrap;gap:8px;padding:12px;background:#14342e}.ds-choice{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 15px;border:0;border-radius:999px;background:#1d463e;color:#f1efe7;font:inherit;font-size:.9375rem;transition:opacity 120ms ease-out;}.ds-choice[aria-pressed=true]{background:#f1efe7;color:#10201c;font-weight:700}.ds-choice:active{opacity:.65}.ds-choice:focus-visible{outline:2px solid #d9a441;outline-offset:2px}.ds-dot{width:8px;height:8px;border-radius:50%}"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "chip",
+      "refersTo": "segmented",
+      "description": "Panel track with a label-coloured selected segment, for חודש / שנה and the shop sort.",
+      "html": "<div class=\"ds-seg\" dir=\"rtl\"><button aria-pressed=\"true\">חודש</button><button aria-pressed=\"false\">שנה</button></div>",
+      "css": ".ds-seg{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:3px;padding:3px;width:240px;border-radius:14px;background:#1d463e}.ds-seg button{min-height:44px;border:0;border-radius:11px;background:transparent;color:#f1efe7;font:inherit;font-size:.9375rem;font-weight:500;transition:opacity 120ms ease-out;}.ds-seg button[aria-pressed=true]{background:#f1efe7;color:#10201c;font-weight:700;box-shadow:0 2px 6px rgba(4,14,12,.35)}.ds-seg button:focus-visible{outline:2px solid #d9a441;outline-offset:2px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search",
+      "description": "44px raised-panel field; focus draws a brass inset ring.",
+      "html": "<label class=\"ds-search\" dir=\"rtl\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M10.5 3a7.5 7.5 0 0 1 6 12l4.3 4.3-1.5 1.5-4.3-4.3A7.5 7.5 0 1 1 10.5 3zm0 2.2a5.3 5.3 0 1 0 0 10.6 5.3 5.3 0 0 0 0-10.6z\"/></svg><input placeholder=\"חיפוש\"></label>",
+      "css": ".ds-search{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;display:flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border-radius:14px;background:#1d463e;color:#a3bcb2}.ds-search input{flex:1;min-height:44px;border:0;background:none;color:#f1efe7;font:inherit;font-size:1rem;caret-color:#d9a441;outline:none}.ds-search input::placeholder{color:#a3bcb2}.ds-search:focus-within{box-shadow:inset 0 0 0 2px #d9a441}"
+    },
+    {
+      "name": "Tab Bar",
+      "kind": "nav",
+      "refersTo": "tab-bar",
+      "description": "Four tabs on tab-bar green; quiet sage at rest, brass when selected.",
+      "html": "<nav class=\"ds-tabs\" dir=\"rtl\"><a class=\"ds-tab is-on\" href=\"#\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M7 7a5 5 0 0 1 10 0h2.2a1 1 0 0 1 1 .9l1 12a1.5 1.5 0 0 1-1.5 1.6H4.3a1.5 1.5 0 0 1-1.5-1.6l1-12a1 1 0 0 1 1-.9zm2 0h6a3 3 0 0 0-6 0z\"/></svg>רכישות</a><a class=\"ds-tab\" href=\"#\"><svg width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><rect x=\"3\" y=\"12\" width=\"5\" height=\"9\" rx=\"1.5\"/><rect x=\"9.5\" y=\"4\" width=\"5\" height=\"17\" rx=\"1.5\"/><rect x=\"16\" y=\"8\" width=\"5\" height=\"13\" rx=\"1.5\"/></svg>סיכום</a></nav>",
+      "css": ".ds-tabs{font-family:Heebo, -apple-system, BlinkMacSystemFont, 'Arial Hebrew', sans-serif;display:flex;justify-content:space-around;padding:6px 0 10px;background:#102b26;box-shadow:0 -1px 0 rgba(241,239,231,.08)}.ds-tab{display:flex;flex-direction:column;align-items:center;gap:2px;color:#a3bcb2;font-size:.6875rem;font-weight:500;text-decoration:none;transition:opacity 120ms ease-out;}.ds-tab.is-on{color:#d9a441}.ds-tab:active{opacity:.65}.ds-tab:focus-visible{outline:2px solid #d9a441;outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Gallery Wall",
+    "overview": "A museum's new-acquisitions wall. Every purchase hangs as a photo lit by a soft warm spotlight on a deep matte green wall, and a light label card overlaps its lower edge with the facts: name, shop, place, date, running number and price. The owner recognises the thing itself before reading a word. The world refuses the category default of small square thumbnails in a grey list with the amount as the loudest thing.\n\nThis is an iPhone Home Screen app first: Ionic in iOS mode, Hebrew right to left, one phone column, dark wall only. Navigation and controls stay standard iOS (large titles, back buttons, action sheets, a four-tab bar); the gallery lives in the tiles and labels, not in costume. No frames, serifs, patterns or museum ornament. Density is calm: one lead piece large, then a two-column grid, rows of one line where a list is needed.\n\nColour is spent sparingly. Brass is the one interactive tint, signal orange appears only on a closing return window, and each kind owns one colour that only ever appears as a small dot beside its name.",
+    "keyCharacteristics": [
+      "Deep matte green wall, raised green tiles, light label cards with dark green ink.",
+      "Every item photo sits in a lit tile under a warm spotlight; the label card overlaps the photo's edge.",
+      "Brass is the only interactive tint; signal orange is only the return window.",
+      "Ten kind colours, each a dot beside its kind's name, never alone.",
+      "Heebo throughout, heavy numerals for prices and totals, tabular figures everywhere.",
+      "Generously rounded tiles and controls; nothing square.",
+      "Solid filled icons, no outline icons."
+    ],
+    "rules": [
+      {
+        "name": "The One Brass Rule",
+        "body": "Brass is the only colour that says \"you can act here\". No other accent fills a button, a tab or a link.",
+        "section": "colors"
+      },
+      {
+        "name": "The Signal Is Time Rule",
+        "body": "Signal orange means a return window is closing and is used for nothing else: not for prices, totals, errors or emphasis.",
+        "section": "colors"
+      },
+      {
+        "name": "The Dot Beside the Name Rule",
+        "body": "A kind colour appears only as a small dot next to its kind's name. Filtering by kind keeps the chosen chip bright and dims the others to 45%; it never tints tiles or text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Heavy Number Rule",
+        "body": "The amount that matters on a screen (the label's price, the period total, the shop total) is set at 800 and is the only thing that heavy besides the page title. It always stands beside the photos or rows that add up to it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Whole Name Rule",
+        "body": "A shop or model name is never broken mid-word: model names keep their words whole, and shop names in chips take their own direction so Latin names read correctly inside Hebrew.",
+        "section": "typography"
+      },
+      {
+        "name": "The Lit From Above Rule",
+        "body": "Depth comes from the spotlight and the tone steps of the wall. Tiles, fields and choices are flat; only label cards and floating actions cast shadows.",
+        "section": "elevation"
+      },
+      {
+        "name": "The No Square Rule",
+        "body": "No square thumbnails and no edge-to-edge photos. Every photo sits inside a rounded lit tile.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** show every item photo inside a lit tile, with its label card or caption beside or over its edge.",
+      "**Do** keep brass as the only interactive tint: camera, primary action, selected tab, back and text actions, focus.",
+      "**Do** use signal orange only for a closing return window, as the return bar's length or the attention status.",
+      "**Do** put a kind's colour only in an 8px dot beside its name.",
+      "**Do** set the screen's key amount at 800 beside the photos or rows that make it up.",
+      "**Do** isolate every number left-to-right with tabular figures.",
+      "**Do** give every control at least a 44pt target: 44px choices and fields, 48px buttons, 64px camera.",
+      "**Do** tint shadows deep green-black and keep them to label cards and floating actions.",
+      "**Do** dim a returned item's photo once, to 45%, and write הוחזר."
+    ],
+    "donts": [
+      "**Don't** use small square thumbnails in a grey list, or make the amount louder than the photo.",
+      "**Don't** add frames, serifs, patterns or museum costume; controls stay standard iOS.",
+      "**Don't** use a second accent colour for actions.",
+      "**Don't** show a kind by colour alone, or tint a tile or text with a kind colour.",
+      "**Don't** use soft coral as a fill, or for anything but deletion and errors.",
+      "**Don't** use outline icons.",
+      "**Don't** put a shadow on a tile, field or choice."
+    ]
+  }
+}

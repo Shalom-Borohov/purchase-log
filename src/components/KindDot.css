@@ -1,0 +1,52 @@
+.kind-dot {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.kind-dot-mark {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.kind-colour-sky {
+  background: var(--kind-sky);
+}
+
+.kind-colour-lilac {
+  background: var(--kind-lilac);
+}
+
+.kind-colour-pink {
+  background: var(--kind-pink);
+}
+
+.kind-colour-mint {
+  background: var(--kind-mint);
+}
+
+.kind-colour-lime {
+  background: var(--kind-lime);
+}
+
+.kind-colour-grey {
+  background: var(--kind-grey);
+}
+
+.kind-colour-peach {
+  background: var(--kind-peach);
+}
+
+.kind-colour-sand {
+  background: var(--kind-sand);
+}
+
+.kind-colour-teal {
+  background: var(--kind-teal);
+}
+
+.kind-colour-violet {
+  background: var(--kind-violet);
+}

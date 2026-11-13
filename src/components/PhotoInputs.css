@@ -1,0 +1,44 @@
+.photo-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.photo-input {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: var(--app-radius-control);
+  cursor: pointer;
+  transition: opacity 120ms ease-out;
+}
+
+.photo-input:active {
+  opacity: 0.65;
+}
+
+.photo-input:focus-within {
+  outline: 2px solid var(--app-brass);
+  outline-offset: 2px;
+}
+
+.photo-input-camera {
+  flex: 1;
+  min-height: 52px;
+  background: var(--app-brass);
+  color: var(--app-ink);
+  font-size: 1.0625rem;
+  font-weight: 700;
+}
+
+.photo-input-library {
+  flex: none;
+  background: var(--app-panel);
+  color: var(--app-label);
+  font-size: 0.9375rem;
+}

@@ -1,0 +1,22 @@
+.return-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.return-bar-track {
+  display: flex;
+  flex: 1;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: var(--app-track);
+}
+
+.return-bar-track i {
+  border-radius: 3px;
+  background: var(--app-signal);
+}
