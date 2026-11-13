@@ -1,0 +1,111 @@
+.item-sheet-slots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.item-sheet-slot-column {
+  min-width: 0;
+}
+
+.item-sheet-slot {
+  position: relative;
+  height: 170px;
+  overflow: hidden;
+  border-radius: var(--app-radius-tile);
+  background: var(--app-panel);
+  transition: opacity 120ms ease-out;
+}
+
+.item-sheet-slot[aria-busy='true'] {
+  opacity: 0.5;
+}
+
+.item-sheet-slot-item:not(.item-sheet-slot-filled) {
+  background: var(--app-spotlight), var(--app-panel);
+}
+
+.item-sheet-slot-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-sheet-slot-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--app-brass);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.item-sheet-slot-receipt .item-sheet-slot-empty::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border: 1.5px dashed rgba(217, 164, 65, 0.42);
+  border-radius: 15px;
+}
+
+.item-sheet-slot-empty:focus-within,
+.item-sheet-retake:focus-within,
+.item-sheet-slot-action:focus-within {
+  outline: 2px solid var(--app-brass);
+  outline-offset: -2px;
+}
+
+.item-sheet-retake {
+  position: absolute;
+  top: 4px;
+  inset-inline-end: 4px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.item-sheet-retake-mark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--app-wall);
+  color: var(--app-label);
+  box-shadow: 0 3px 8px rgba(4, 14, 12, 0.4);
+}
+
+.item-sheet-slot-foot {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-top: 2px;
+  padding-inline-start: 6px;
+}
+
+.item-sheet-slot-caption {
+  flex: 1;
+  color: var(--app-quiet);
+  font-size: 0.8125rem;
+}
+
+.item-sheet-slot-action {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--app-quiet);
+  cursor: pointer;
+}

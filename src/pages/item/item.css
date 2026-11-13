@@ -1,0 +1,158 @@
+.item-page-toolbar ion-back-button {
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+
+.item-page-edit {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 8px;
+  color: var(--app-brass);
+  font-size: 1.0625rem;
+  font-weight: 500;
+}
+
+.item-page.page-body {
+  padding-top: 0;
+}
+
+.item-page .lit-tile-piece {
+  margin: 4px var(--app-gutter) 0;
+}
+
+.item-page-label {
+  position: relative;
+  margin: -20px 28px 0;
+}
+
+.item-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px var(--app-gutter) 0;
+}
+
+.item-action {
+  display: flex;
+  flex: 1 1 40%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 12px;
+  border-radius: var(--app-radius-control);
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.item-action-brass {
+  background: var(--app-brass-wash);
+  color: var(--app-brass);
+}
+
+.item-action-panel {
+  background: var(--app-panel);
+  color: var(--app-label);
+}
+
+.item-same-shop-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 28px var(--app-gutter) 0;
+}
+
+.item-same-shop-heading h2 {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.item-same-shop-rail {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+  padding: 0 var(--app-gutter);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.item-same-shop-tile {
+  flex: 0 0 108px;
+  width: 108px;
+}
+
+.item-same-shop-tile p {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  margin: 6px 0 0;
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+
+.item-same-shop-name {
+  overflow: hidden;
+  font-weight: 500;
+  text-overflow: ellipsis;
+}
+
+.item-papers {
+  margin: 22px var(--app-gutter) 0;
+  padding: 4px 14px;
+  border-radius: 16px;
+}
+
+.item-papers-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 52px;
+  font-size: 0.9375rem;
+  text-align: start;
+}
+
+.item-papers-row + .item-papers-row {
+  border-top: 1px solid var(--app-hairline);
+}
+
+.item-papers-text {
+  flex: 1;
+}
+
+.item-receipt svg {
+  flex: none;
+  color: var(--app-quiet);
+}
+
+.item-receipt-thumbnail {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.item-warranty .item-action {
+  flex: none;
+}
+
+.item-receipt-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.item-note {
+  margin: 16px var(--app-gutter) 0;
+  color: var(--app-quiet);
+  font-size: 0.9375rem;
+  white-space: pre-line;
+}
+
+.item-delete {
+  display: block;
+  margin: 28px auto 0;
+}

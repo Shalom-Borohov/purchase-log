@@ -1,0 +1,122 @@
+.summary-unit {
+  margin: 12px var(--app-gutter) 0;
+}
+
+.summary-period {
+  margin: 22px var(--app-gutter) 0;
+}
+
+.summary-period .empty-note {
+  padding-inline: 0;
+}
+
+.period-stepper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-inline-start: -12px;
+}
+
+.period-stepper-label {
+  margin: 0;
+  color: var(--app-quiet);
+  font-size: 0.875rem;
+}
+
+.period-step {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--app-radius-pill);
+  color: var(--app-quiet);
+}
+
+.period-step-previous svg {
+  transform: scaleX(-1);
+}
+
+.period-step:disabled {
+  opacity: 0.3;
+}
+
+.summary-total {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-height: 44px;
+  margin-top: 2px;
+}
+
+.summary-items-total {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 18px var(--app-gutter) 8px;
+}
+
+.period-breakdowns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 18px var(--app-gutter) 0;
+}
+
+.breakdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 52px;
+  padding: 0 14px;
+  border-radius: var(--app-radius-label);
+  background: var(--app-panel);
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.breakdown-toggle svg {
+  color: var(--app-quiet);
+  transition: transform 160ms ease-out;
+}
+
+.breakdown-toggle[aria-expanded='true'] svg {
+  transform: rotate(-90deg);
+}
+
+.breakdown-lines {
+  margin: 4px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breakdown-line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 48px;
+  padding: 0 14px;
+  border-top: 1px solid var(--app-hairline);
+}
+
+.breakdown-lines li:first-child .breakdown-line {
+  border-top: 0;
+}
+
+.breakdown-label {
+  flex: 1;
+  min-width: 0;
+  font-weight: 500;
+}
+
+.breakdown-total {
+  font-weight: 700;
+}
+
+.summary-total-amount {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
