@@ -60,6 +60,8 @@ Items marked **(assumed)** were settled without asking the owner and can be stru
 
 36. **The app icon is a lit green panel with a light label card over its lower edge, the label carrying two text bars and a brass price mark,** drawn as solid shapes with depth on the green wall. Drawing: `.impeccable/mocks/decision/icon-piece.html`, picked by the owner on impeccable's decision page on 2026-11-12.
 
+41. **A text field with no text shows its placeholder right to left; once the owner types, the field follows the typed text's direction,** so English shop and brand names stay left to right. Why: Safari lays out an empty `dir="auto"` field left to right, which put Hebrew placeholders on the wrong side (issue #3). (added 2026-11-13)
+
 ### Data
 
 28. **Photos and data live on the phone only, with a zip backup exported and imported by hand** from הגדרות. (assumed, same as מסעדות)
