@@ -210,7 +210,7 @@ ion-modal {
   opacity: 1;
 }
 
-.field:placeholder-shown {
+[dir='auto']:placeholder-shown {
   direction: rtl;
 }
 
