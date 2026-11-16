@@ -62,6 +62,8 @@ Items marked **(assumed)** were settled without asking the owner and can be stru
 
 41. **A text field with no text shows its placeholder right to left; once the owner types, the field follows the typed text's direction,** so English shop and brand names stay left to right. Why: Safari lays out an empty `dir="auto"` field left to right, which put Hebrew placeholders on the wrong side (issue #3). (added 2026-11-13)
 
+42. **Swipe-back is Ionic's own gesture, so the real previous page follows the finger; iOS's built-in edge swipe is blocked for touches that start within 20px of either screen edge, except on tap targets (buttons, links, controls, an overlay's backdrop).** Why: in a Home Screen app on a Hebrew iPhone, both gestures use the right edge and ran together, so one swipe could go back twice, jump or freeze taps (issue #5). A scroll that starts in that strip away from a tap target doesn't move, whether up and down or sideways along a rail's 16px padding. (added 2026-11-16, same as prayer-log 84 and workout-log 34)
+
 ### Data
 
 28. **Photos and data live on the phone only, with a zip backup exported and imported by hand** from הגדרות. (assumed, same as מסעדות)
